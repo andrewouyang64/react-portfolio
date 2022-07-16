@@ -1,49 +1,27 @@
 import React from 'react';
-import andrewImg from './andrewphoto1.jpg';
-const styles = {
-  aboutme: {
-    margin: 20,
-    background: '#e8eaf6',
-  },
-  heading: {
-    marginTop: '1.3rem',
-    background: '#3f51b5',
-    height: '3rem',
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
-    marginLeft: '30px',
-    marginRight: '30px'
-  },
-  content: {
-    padding: 20,
-  },
-
-  andrewImg: {
-    height: '200px',
-    width: '160px',
-    marginLeft: '30px',
-    marginRight: '30px',
-    marginTop: '30px'
-  }
-};
+import andrewImg from '../images/andrewphoto1.jpg';
+import '../styles/aboutme.css';
 
 function AboutMe() {
   return (
     
-    <div style={styles.aboutme}>
+    <div className="aboutme">
       <div> 
-        <img style={styles.andrewImg} src={andrewImg}/>
+        <img className="andrewImg" src={andrewImg}/>
       </div>
-      <div style={styles.heading}>About Me</div>
-      <div style={styles.content}>
+        <div className="heading">About Me</div>
+        <div className='content'>
         
-        About Me !  Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        <span className='span1'>Since</span> I graduated  from college with a bachelor degree in automation many years ago, 
+                        I have worked as a computer hardware engineer, a business director and a business advisor. I have extensive experiences
+                        in computer technology, business management and IT implementation for business.
+                        Recently I have completed most of a coding course in full stack web development at University of Sydney. Over the course I 
+                        have learnt and practiced programming with languages and libraraies/frameworks that include
+                        <span className='span2'> HTML, CSS, Boostrap, JavaScript, jQuery, API, node.js, express.js, MYSQL database, 
+                        sequelize, RESTful crud, MVC structure, jest test and insomnia, PWA, React.js.  I also gained experiences on project management from using
+                        Git/Github, Agile, Kanban methods and Heroku deploymentation in group projects.</span>
+                        I'm passionate about adapting to new technoloies that I intend to use to solve complex real world problems. Currently I continue
+                        studying full stack web delevopment. I also consider taking courses in cloud computing and AI/ML as I intend to become a software professional.
       </div>
     </div>
   );
