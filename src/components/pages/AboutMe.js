@@ -1,15 +1,61 @@
 import React from 'react';
 import andrewImg from '../images/andrewphoto1.jpg';
+import sqlIcon from '../images/sql-icon.jpg';
+import mongoDb from '../images/mongo-icon.png';
+import node from '../images/node-js-logo.jpg';
+import pwaIcon from '../images/pwaicon.png';
+import graphql from '../images/graphql.png';
+import heroku from '../images/heroku-icon.png';
+import expressicon from '../images/express.js.png';
+import boostrap from '../images/bootstrap-icon.png';
+import api from '../images/api-icon.png';
+import reacticon from '../images/react-icon.png';
+import jwt from '../images/jwt-icon.png';
+import cssion from '../images/css-icon.png';
+
 import '../styles/aboutme.css';
 
 function AboutMe() {
   return (
     
-    <div className="aboutme">
-      <div> 
+    <div className="aboutmeDiv">
+      <div className='imageDiv' >
+        <div className='andrewDiv'>
         <img className="andrewImg" src={andrewImg}/>
+
+        <ul className='icons' >
+         
+              <img className="icon1" src={reacticon}/>
+          
+              <img className="icon1" src={cssion}/>
+         
+              <img className="icon1" src={boostrap}/>
+         
+              <img className="icon1" src={sqlIcon}/>
+          
+              <img className="icon1" src={api}/>
+      
+              <img className="icon1" src={mongoDb}/>
+          
+              <img className="icon1" src={graphql}/>
+        
+          <img className="icon1" src={node}/>
+          <img className="icon1" src={expressicon}/>
+          
+          <img className="icon1" src={heroku}/>
+          <img className="icon1" src={pwaIcon}/>
+          <img className="icon1" src={jwt}/>
+           
+       
+      </ul>
+
+        </div>
+       
       </div>
-        <div className="heading">About Me</div>
+        <div className="heading">
+          <h3 className='aboutme' >Andrew O Yang &nbsp;&nbsp; <span className='title'>full stack web developer</span> </h3>
+
+          </div>
         <div className='content'>
         
         <span className='span1'>Since</span> I graduated  from college with a bachelor degree in automation many years ago, 
@@ -22,7 +68,10 @@ function AboutMe() {
                         Git/Github, Agile, Kanban methods and Heroku deploymentation in group projects.</span>
                         I'm passionate about adapting to new technoloies that I intend to use to solve complex real world problems. Currently I continue
                         studying full stack web delevopment. I also consider taking courses in cloud computing and AI/ML as I intend to become a software professional.
+
+                        <p className='pTag' ></p>
       </div>
+        
     </div>
   );
 }

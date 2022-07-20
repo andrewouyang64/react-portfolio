@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../styles/contact.css';
 import { validateEmail, checkMessage } from '../../utils/helper';
 
@@ -17,7 +18,7 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and password
+    // Based on the input type, we set the state of either email, name, and message
     if (inputType === 'name') {
       setName(inputValue);
     } else if (inputType === 'email') {
@@ -54,8 +55,9 @@ export default function Contact() {
       <h1 className='contact'>Contact</h1>
       <div className='form'>
       <form className="formContent" action="mailto:betterandbetter117@gmail.com" method="POST"
-        enctype="text/plain" name="EmailForm"> Name:<br/>
+        enctype="text/plain" name="EmailForm"> 
         
+        Name:<br/>
         <input 
           className= "name" 
           value={name} 
@@ -63,22 +65,28 @@ export default function Contact() {
           type="text" 
           size="40" 
           name="Contac-tName"
+          placeholder="Name"
         /><br/><br/>
-          Message:<br/>
 
-        <input 
+        Email:<br/>
+        <input
+        className='email'
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
-        />
 
+        /><br/><br/>
+
+          Message:<br/>
         <textarea className= "message" 
           value={message} 
           onChange={handleInputChange}
           name="Message" 
-          rows="6" cols="42">
+          rows="6" cols="42"
+          placeholder="Please write message here">
+          
         </textarea><br/>
 
         <button className='button' type="button" onClick={handleFormSubmit}>Submit</button>

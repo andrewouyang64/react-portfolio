@@ -10,6 +10,7 @@ export default function Portfolio() {
       <h1 className='portfolio'>Portfolio</h1>
 
       <div className='projectPage'>
+        
         <div className='project1'>
        
         <img className= "project1Image" src={project1Image} alt="A tourist info image"/>
