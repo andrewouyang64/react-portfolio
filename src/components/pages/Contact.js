@@ -49,6 +49,7 @@ export default function Contact() {
     setName('');
     setEmail('');
     setMessage('');
+    setErrorMessage('');
   };
   return (
     <div>
@@ -62,9 +63,9 @@ export default function Contact() {
           className= "name" 
           value={name} 
           onChange={handleInputChange} 
-          type="text" 
-          size="40" 
-          name="Contac-tName"
+          type="name" 
+          size="35" 
+          name="name"
           placeholder="Name"
         /><br/><br/>
 
@@ -73,9 +74,10 @@ export default function Contact() {
         className='email'
           value={email}
           name="email"
+          size="35"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
 
         /><br/><br/>
 
@@ -84,7 +86,7 @@ export default function Contact() {
           value={message} 
           onChange={handleInputChange}
           name="Message" 
-          rows="6" cols="42"
+          rows="6" cols="37"
           placeholder="Please write message here">
           
         </textarea><br/>

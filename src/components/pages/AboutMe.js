@@ -20,10 +20,10 @@ function AboutMe() {
     
     <div className="aboutmeDiv">
       <div className='imageDiv' >
-        <div className='andrewDiv'>
+        
         <img className="andrewImg" src={andrewImg}/>
 
-        <ul className='icons' >
+        <div className='icons' >
          
               <img className="icon1" src={reacticon}/>
           
@@ -47,7 +47,7 @@ function AboutMe() {
           <img className="icon1" src={jwt}/>
            
        
-      </ul>
+      
 
         </div>
        

@@ -1,25 +1,23 @@
 
 .projectPage {
-margin-bottom: 20px;
-    padding: 60px;
+
+    padding: 30px 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     color: #ffffff;
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
+    /* margin-bottom: 15px; */
     position: relative;
     bottom: 30px;
 }
 
-.project1 {
-display: flex;
-align-items: center;
-margin-bottom: 15px;
-}
 
-.project1Image {
+
+.project1Image{
     float: left;
+    margin-right: 1.56rem;
     margin-right: 25px;
     height: 240px;
     border: solid 4px white;
@@ -42,15 +40,16 @@ margin-bottom: 15px;
     bottom: 20px;   
 }
 
+
 .project2 {
-    display: flex;
-    align-items: center;
-    
-    }
+    padding-bottom: 15px;
+}
 
 .project2Image {
     float: right;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* padding-bottom: 15px; */
     height: 240px;
     border: solid 4px white;
 }
@@ -60,11 +59,7 @@ margin-bottom: 15px;
     font-size: medium;
 }
 
-.project3 {
-    display: flex;
-    align-items: center;
-    }
-    
+     
 .project3Image {
     float: left;
     margin-right: 25px;
@@ -76,4 +71,24 @@ margin-bottom: 15px;
     color: aqua;
     font-size: medium;
 }
+
+@media (max-width: 576px) {
+  
+    .projectPage {
+        padding: 20px 20px ;
+    }
+
+    .project1Image {
+        height: 190px;
+    }
+
+    .project2Image {
+        height: 190px ;
+    }
+
+    .project3Image {
+        height: 190px ;
+    }
+
+  }
 

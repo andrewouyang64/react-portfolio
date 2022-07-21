@@ -8,3 +8,11 @@
   .a {
     color: rgb(174, 188, 193);
   }
+
+  @media (max-width: 576px) {
+
+    .header {
+      font-size: 0.92rem;
+      height:45px;
+    }
+  }
