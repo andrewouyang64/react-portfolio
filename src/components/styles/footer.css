@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: black;
 }
 html {
@@ -6,7 +6,7 @@ html {
 }
 .root {
     background-color: black;
-}
+} */
 .footer {
     padding: 1.25rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +42,7 @@ footer h3 {
     margin-right: 10px;
 }
 
-.contact-icon:hover {
+.contactIcon:hover {
     filter: drop-shadow(3px 4px 3px rgb(203, 192, 192));  
 
 } 
