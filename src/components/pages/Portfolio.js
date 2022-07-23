@@ -47,7 +47,7 @@ export default function Portfolio() {
         
          
           <p>
-          <img className= "project3Image" src={project3Image} alt="A password generator"/> 
+          <img className= "project3Image" src={project3Image} alt="A password generator image"/> 
           <a className='project3Link' href="https://andrewouyang64.github.io/apw/">Password Generator</a> <br/>
           This app was coded largely with Javascript logic programming, some CSS styling as well as HTML. This
                    password generator can generate a password for a user with choices of uppercase, numeric or symbol between 8 to

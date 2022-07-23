@@ -21,30 +21,30 @@ function AboutMe() {
     <div className="aboutmeDiv">
       <div className='imageDiv' >
         
-        <img className="andrewImg" src={andrewImg}/>
+        <img className="andrewImg" src={andrewImg} alt="picture of andrew"/>
 
         <div className='icons' >
          
-              <img className="icon1" src={reacticon}/>
+              <img className="icon1" src={reacticon} alt="icon image"/>
           
-              <img className="icon1" src={cssion}/>
+              <img className="icon1" src={cssion} alt="icon image"/>
          
-              <img className="icon1" src={boostrap}/>
+              <img className="icon1" src={boostrap} alt="icon image"/>
          
-              <img className="icon1" src={sqlIcon}/>
+              <img className="icon1" src={sqlIcon} alt="icon image"/>
           
-              <img className="icon1" src={api}/>
+              <img className="icon1" src={api} alt="icon image"/>
       
-              <img className="icon1" src={mongoDb}/>
+              <img className="icon1" src={mongoDb} alt="icon image"/> 
           
-              <img className="icon1" src={graphql}/>
+              <img className="icon1" src={graphql} alt="icon image"/>
         
-          <img className="icon1" src={node}/>
-          <img className="icon1" src={expressicon}/>
+          <img className="icon1" src={node} alt="icon image"/>
+          <img className="icon1" src={expressicon} alt="icon image"/>
           
-          <img className="icon1" src={heroku}/>
-          <img className="icon1" src={pwaIcon}/>
-          <img className="icon1" src={jwt}/>
+          <img className="icon1" src={heroku} alt="icon image"/>
+          <img className="icon1" src={pwaIcon} alt="icon image"/>
+          <img className="icon1" src={jwt} alt="icon image"/>
            
        
       
@@ -64,7 +64,8 @@ function AboutMe() {
                         Recently I have completed most of a coding course in full stack web development at University of Sydney. Over the course I 
                         have learnt and practiced programming with languages and libraraies/frameworks that include
                         <span className='span2'> HTML, CSS, Boostrap, JavaScript, jQuery, API, node.js, express.js, MYSQL database, 
-                        sequelize, RESTful crud, MVC structure, jest test and insomnia, PWA, React.js.  I also gained experiences on project management from using
+                        sequelize, RESTful crud, MVC structure, jest test and insomnia, PWA, React.js and Apollo client/server.  I also gained 
+                        experiences on project management from using
                         Git/Github, Agile, Kanban methods and Heroku deploymentation in group projects.</span>
                         I'm passionate about adapting to new technoloies that I intend to use to solve complex real world problems. Currently I continue
                         studying full stack web delevopment. I also consider taking courses in cloud computing and AI/ML as I intend to become a software professional.
