@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.811e8037.css",
-    "main.js": "/static/js/main.8457a158.js",
-    "static/media/book-taku1.png": "/static/media/book-taku1.ca25f2b3ac12c27d8a99.png",
-    "static/media/andrewphoto1.jpg": "/static/media/andrewphoto1.ce0e33cbe1c8c4a9b550.jpg",
-    "static/media/tourist-info-pic1.png": "/static/media/tourist-info-pic1.bfee191e167171b0ce20.png",
-    "static/media/AndrewResume.pdf": "/static/media/AndrewResume.20b3fd941d37e3730a5d.pdf",
-    "static/media/sql-icon.jpg": "/static/media/sql-icon.862cdbaefe2d2319f2fa.jpg",
-    "static/media/graphql.png": "/static/media/graphql.0569bd246846c5f2ee92.png",
-    "static/media/password-generator.png": "/static/media/password-generator.449666f59a3a6f73edcc.png",
-    "static/media/bootstrap-icon.png": "/static/media/bootstrap-icon.6942fc46d30332984f0a.png",
-    "static/media/express.js.png": "/static/media/express.js.f5f7bbf22c3341139db9.png",
-    "static/media/twitter-bird-symbols-png.png": "/static/media/twitter-bird-symbols-png.ed37c2edc4f42740b9cf.png",
-    "static/media/pwaicon.png": "/static/media/pwaicon.032ea94f7cdd5f5b177b.png",
-    "static/media/mobile-phone-icon.png": "/static/media/mobile-phone-icon.af2ee66b93e93e2d5508.png",
-    "static/media/react-icon.png": "/static/media/react-icon.f7ad69ffc210dff96524.png",
-    "static/media/symbole-github-violet.png": "/static/media/symbole-github-violet.9315c250b53978239b67.png",
-    "static/media/Mail-icon.png": "/static/media/Mail-icon.47e4956704e76234da9b.png",
-    "static/media/node-js-logo.jpg": "/static/media/node-js-logo.a2766b33fb1f05449ebf.jpg",
-    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.0cd1b13e7d8b2244983d.png",
-    "index.html": "/index.html",
-    "main.811e8037.css.map": "/static/css/main.811e8037.css.map",
-    "main.8457a158.js.map": "/static/js/main.8457a158.js.map"
+    "main.css": "/react-portfolio/static/css/main.811e8037.css",
+    "main.js": "/react-portfolio/static/js/main.4287a019.js",
+    "static/media/book-taku1.png": "/react-portfolio/static/media/book-taku1.ca25f2b3ac12c27d8a99.png",
+    "static/media/andrewphoto1.jpg": "/react-portfolio/static/media/andrewphoto1.ce0e33cbe1c8c4a9b550.jpg",
+    "static/media/tourist-info-pic1.png": "/react-portfolio/static/media/tourist-info-pic1.bfee191e167171b0ce20.png",
+    "static/media/AndrewResume.pdf": "/react-portfolio/static/media/AndrewResume.20b3fd941d37e3730a5d.pdf",
+    "static/media/sql-icon.jpg": "/react-portfolio/static/media/sql-icon.862cdbaefe2d2319f2fa.jpg",
+    "static/media/graphql.png": "/react-portfolio/static/media/graphql.0569bd246846c5f2ee92.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.449666f59a3a6f73edcc.png",
+    "static/media/bootstrap-icon.png": "/react-portfolio/static/media/bootstrap-icon.6942fc46d30332984f0a.png",
+    "static/media/express.js.png": "/react-portfolio/static/media/express.js.f5f7bbf22c3341139db9.png",
+    "static/media/twitter-bird-symbols-png.png": "/react-portfolio/static/media/twitter-bird-symbols-png.ed37c2edc4f42740b9cf.png",
+    "static/media/pwaicon.png": "/react-portfolio/static/media/pwaicon.032ea94f7cdd5f5b177b.png",
+    "static/media/mobile-phone-icon.png": "/react-portfolio/static/media/mobile-phone-icon.af2ee66b93e93e2d5508.png",
+    "static/media/react-icon.png": "/react-portfolio/static/media/react-icon.f7ad69ffc210dff96524.png",
+    "static/media/symbole-github-violet.png": "/react-portfolio/static/media/symbole-github-violet.9315c250b53978239b67.png",
+    "static/media/Mail-icon.png": "/react-portfolio/static/media/Mail-icon.47e4956704e76234da9b.png",
+    "static/media/node-js-logo.jpg": "/react-portfolio/static/media/node-js-logo.a2766b33fb1f05449ebf.jpg",
+    "static/media/linkedin-icon.png": "/react-portfolio/static/media/linkedin-icon.0cd1b13e7d8b2244983d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.811e8037.css.map": "/react-portfolio/static/css/main.811e8037.css.map",
+    "main.4287a019.js.map": "/react-portfolio/static/js/main.4287a019.js.map"
   },
   "entrypoints": [
     "static/css/main.811e8037.css",
-    "static/js/main.8457a158.js"
+    "static/js/main.4287a019.js"
   ]
 }
