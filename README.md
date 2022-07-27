@@ -1,8 +1,10 @@
 ## React-Portfolio
 
--- This portfolio page is created by implementing react single page structure.
+-- This portfolio page is created by implementing react single page structure and deployed at gh page.
 
 Demo video link: https://watch.screencastify.com/v/fl6neWhVkBOW67Kz70Mi
+
+Web page live link: https://andrewouyang64.github.io/react-portfolio
 
 
 Screenshot on delopyment:
